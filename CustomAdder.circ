@@ -66,12 +66,26 @@
       <a name="label" val="SecondOperand"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="0" loc="(390,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="A"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(390,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B"/>
+      <a name="width" val="8"/>
+    </comp>
     <comp lib="0" loc="(400,250)" name="Tunnel">
       <a name="label" val="A"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(400,350)" name="Tunnel">
       <a name="label" val="B"/>
+      <a name="width" val="8"/>
+    </comp>
+    <comp lib="0" loc="(570,540)" name="Tunnel">
+      <a name="label" val="C"/>
       <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(630,250)" name="Tunnel">
@@ -86,6 +100,7 @@
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="3" loc="(520,540)" name="Adder"/>
     <wire from="(130,220)" to="(130,280)"/>
     <wire from="(130,220)" to="(390,220)"/>
     <wire from="(130,280)" to="(390,280)"/>
@@ -98,6 +113,13 @@
     <wire from="(390,260)" to="(390,280)"/>
     <wire from="(390,320)" to="(390,340)"/>
     <wire from="(390,360)" to="(390,380)"/>
+    <wire from="(390,490)" to="(440,490)"/>
+    <wire from="(390,580)" to="(440,580)"/>
+    <wire from="(440,490)" to="(440,530)"/>
+    <wire from="(440,530)" to="(480,530)"/>
+    <wire from="(440,550)" to="(440,580)"/>
+    <wire from="(440,550)" to="(480,550)"/>
+    <wire from="(520,540)" to="(570,540)"/>
     <wire from="(630,250)" to="(750,250)"/>
     <wire from="(640,210)" to="(640,240)"/>
     <wire from="(640,210)" to="(890,210)"/>
